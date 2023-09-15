@@ -227,6 +227,13 @@ dex_import {
 }
 
 dex_import {
+	name: "dpmapi",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "moto-checkin",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/moto-checkin.jar"],
@@ -244,13 +251,6 @@ dex_import {
 	name: "moto",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/moto.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "dpmapi",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
 	system_ext_specific: true,
 }
 
